@@ -5,16 +5,52 @@
 
 
 
-//? not tandanya (!)
+//? not (!)
 //* operator not = dia itu membalikan nilai yg tadinya true di balik menjadi false atau di sebut data boolean, begitu juga sebalik nya
-//todo contoh nya ada dibawah ini:
+//* contoh nya ada dibawah ini:
+
+//todo: contoh level pertama
+fahri = true
+console.log(!fahri) //* hasilnya false karena dia membalikan nilai true menjadi false
+
+
+//todo: contoh level kedua
+let index = true
+for (let index = 0; index < index.length; index++) {
+    const element = array[index];
+    
+}console.log(!index) //*hasil yg keluar adalah false
+
+
+//todo: contoh level ketiga
+let nilai = [2, 4, 12, 90, 35, 29, 17]
+for (let i = 0; i < nilai.length; i++) {
+    if ((nilai[i] > 2 && nilai[i] < 15) || nilai[i] === 2){
+        console.log(nilai[i])
+    }
+} //* hasilnya : 2, 4, 12
+
+
 
 
 
 //? or (||)
 //* penjelasan = dia itu menghasilkan nilai true ketika ada kondisi yg true
-//todo: contoh code ada di bawah ini
+//* contoh code ada di bawah ini
 
+//todo: contoh level pertama
+let a = true
+let b = false
+console.log(a || b) //* hasilnya true, karena ada salah satu nya yang true
+
+//todo: contoh level kedua
+let isi = [1, 3, 5, 7, 9, 11, 13, 15, 17, 19]
+for (let i = 0; i < isi.length; i++) {
+    if (isi[i] < 5 || isi[i] >10) {
+        console.log(isi[i])
+    }
+    
+} //* hasilnya : 1, 3, 11, 13, 15, 17, 19
 
 
 
