@@ -56,4 +56,3 @@ let celas = 12
 let age = 17
 console.log(`${name} ${celas} ${age}`) //? hasil nya adalah (apel 12 17)
 //ini cara cepat dan efisien, apalagi jika kita ingin membuat data atau object yg sangat banyak, ini akan sangat membantu
-
